@@ -1,6 +1,6 @@
 task.spawn(function()
     loadstring(game:HttpGet(
-                   "http://192.168.0.113:5000/download/interface/tela.lua"))()
+                   "https://raw.githubusercontent.com/vgcpfamily-coder/g4b3r-hub/refs/heads/main/tela.obfuscated.lua"))()
 end)
 
 task.wait(1) -- Um pequeno intervalo para o servidor respirar
@@ -8,26 +8,26 @@ task.wait(1) -- Um pequeno intervalo para o servidor respirar
 -- reservado  a modulos que extend a interface, add novas funcoes de interface, etc
 task.spawn(function()
     loadstring(game:HttpGet(
-                   "http://192.168.0.113:5000/download/interface/tela/dropdown.lua"))()
+                   "https://raw.githubusercontent.com/vgcpfamily-coder/g4b3r-hub/refs/heads/main/tela/dropdown.obfuscated.lua"))()
 end)
 
 task.wait(1) -- Um pequeno intervalo para o servidor respirar
 
 task.spawn(function()
     loadstring(game:HttpGet(
-                   "http://192.168.0.113:5000/download/interface/tela-default.lua"))()
+                   "https://raw.githubusercontent.com/vgcpfamily-coder/g4b3r-hub/refs/heads/main/tela-default.obfuscated.lua"))()
 end)
 
 task.spawn(function()
     loadstring(game:HttpGet(
-                   "http://192.168.0.113:5000/download/interface/DataBase.lua"))()
+                   "https://raw.githubusercontent.com/vgcpfamily-coder/g4b3r-hub/refs/heads/main/DataBase.obfuscated.luaa"))()
 end)
 
 task.wait(1) -- Um pequeno intervalo para o servidor respirar
 
 task.spawn(function()
     loadstring(game:HttpGet(
-                   "http://192.168.0.113:5000/download/interface/System-DataBase.lua"))()
+                   "https://raw.githubusercontent.com/vgcpfamily-coder/g4b3r-hub/refs/heads/main/System-DataBase.obfuscated.lua"))()
 end)
 
 task.wait(1) -- Um pequeno intervalo para o servidor respirar
