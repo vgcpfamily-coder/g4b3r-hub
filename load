@@ -36,94 +36,94 @@ task.wait(1) -- Um pequeno intervalo para o servidor respirar
 
 task.spawn(function()
     loadstring(game:HttpGet(
-                   "http://192.168.0.113:5000/download/interface/sections/settings.lua"))()
+                   "https://raw.githubusercontent.com/vgcpfamily-coder/g4b3r-hub/refs/heads/main/sections/settings.lua"))()
 end)
 
 task.spawn(function()
     loadstring(game:HttpGet(
-                   "http://192.168.0.113:5000/download/interface/sections/auto-farm.lua"))()
+                   "https://raw.githubusercontent.com/vgcpfamily-coder/g4b3r-hub/refs/heads/main/sections/auto-farm.lua"))()
 end)
 
 task.spawn(function()
     loadstring(game:HttpGet(
-                   "http://192.168.0.113:5000/download/interface/sections/farm-prioridade.lua"))()
+                   "https://raw.githubusercontent.com/vgcpfamily-coder/g4b3r-hub/refs/heads/main/sections/farm-prioridade.lua"))()
 end)
 
 task.spawn(function()
     loadstring(game:HttpGet(
-                   "http://192.168.0.113:5000/download/interface/sections/fruits.lua"))()
+                   "https://raw.githubusercontent.com/vgcpfamily-coder/g4b3r-hub/refs/heads/main/sections/fruits.lua"))()
 end)
 
 --- ==================== modules ====================
 
 task.spawn(function()
     loadstring(game:HttpGet(
-                   "http://192.168.0.113:5000/download/interface/modules/fruits-module.lua"))()
+                   "https://raw.githubusercontent.com/vgcpfamily-coder/g4b3r-hub/refs/heads/main/modules/fruits-module.lua"))()
 end)
 
 -- ======================= funcoes ===================================
 task.spawn(function()
     loadstring(game:HttpGet(
-                   "http://192.168.0.113:5000/download/interface/modules/random-fruit.lua"))()
+                   "https://raw.githubusercontent.com/vgcpfamily-coder/g4b3r-hub/refs/heads/main/modules/random-fruit.lua"))()
 end)
 
 task.spawn(function()
     loadstring(game:HttpGet(
-                   "http://192.168.0.113:5000/download/interface/modules/nearest.lua"))()
+                   "https://raw.githubusercontent.com/vgcpfamily-coder/g4b3r-hub/refs/heads/main/modules/nearest.lua"))()
 end)
 
 task.spawn(function()
     loadstring(game:HttpGet(
-                   "http://192.168.0.113:5000/download/interface/modules/fastAttack.lua"))()
+                   "https://raw.githubusercontent.com/vgcpfamily-coder/g4b3r-hub/refs/heads/main/modules/fastAttack.lua"))()
 end)
 
 task.spawn(function()
     loadstring(game:HttpGet(
-                   "http://192.168.0.113:5000/download/interface/modules/auto-random-fruit.lua"))()
+                   "https://raw.githubusercontent.com/vgcpfamily-coder/g4b3r-hub/refs/heads/main/modules/auto-random-fruit.lua"))()
 end)
 
 task.spawn(function()
     loadstring(game:HttpGet(
-                   "http://192.168.0.113:5000/download/interface/modules/auto-v4.lua"))()
+                   "https://raw.githubusercontent.com/vgcpfamily-coder/g4b3r-hub/refs/heads/main/modules/auto-v4.lua"))()
 end)
 
 task.spawn(function()
     loadstring(game:HttpGet(
-                   "http://192.168.0.113:5000/download/interface/modules/auto-haki.lua"))()
+                   "https://raw.githubusercontent.com/vgcpfamily-coder/g4b3r-hub/refs/heads/main/modules/auto-haki.lua"))()
 end)
 
 task.spawn(function()
     loadstring(game:HttpGet(
-                   "http://192.168.0.113:5000/download/interface/modules/auto-juntar-npcs.lua"))()
+                   "https://raw.githubusercontent.com/vgcpfamily-coder/g4b3r-hub/refs/heads/main/modules/auto-juntar-npcs.lua"))()
 end)
 
 task.spawn(function()
     loadstring(game:HttpGet(
-                   "http://192.168.0.113:5000/download/interface/modules/notificador-fruits.lua"))()
+                   "https://raw.githubusercontent.com/vgcpfamily-coder/g4b3r-hub/refs/heads/main/modules/notificador-fruits.lua"))()
 end)
 
 task.spawn(function()
     loadstring(game:HttpGet(
-                   "http://192.168.0.113:5000/download/interface/modules/auto-guardar-fruta.lua"))()
+                   "https://raw.githubusercontent.com/vgcpfamily-coder/g4b3r-hub/refs/heads/main/modules/auto-guardar-fruta.lua"))()
 end)
 
 task.spawn(function()
     loadstring(game:HttpGet(
-                   "http://192.168.0.113:5000/download/interface/modules/farme-bone.lua"))()
+                   "https://raw.githubusercontent.com/vgcpfamily-coder/g4b3r-hub/refs/heads/main/modules/farme-bone.lua"))()
 end)
 
 task.spawn(function()
     loadstring(game:HttpGet(
-                   "http://192.168.0.113:5000/download/interface/modules/water-walker.lua"))()
+                   "https://raw.githubusercontent.com/vgcpfamily-coder/g4b3r-hub/refs/heads/main/water-walker.lua"))()
 end)
 
 
 task.spawn(function()
     loadstring(game:HttpGet(
-                   "http://192.168.0.113:5000/download/interface/modules/remover-luz.lua"))()
+                   "https://raw.githubusercontent.com/vgcpfamily-coder/g4b3r-hub/refs/heads/main/modules/remover-luz.lua"))()
 end)
 
 task.spawn(function()
     loadstring(game:HttpGet(
-                   "http://192.168.0.113:5000/download/interface/modules/auto-dropar-fruta.lua"))()
+                   "https://raw.githubusercontent.com/vgcpfamily-coder/g4b3r-hub/refs/heads/main/auto-dropar-fruta.lua"))()
 end)
