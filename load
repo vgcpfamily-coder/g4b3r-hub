@@ -5,10 +5,9 @@ end)
 
 task.wait(1) -- Um pequeno intervalo para o servidor respirar
 
--- reservado  a modulos que extend a interface, add novas funcoes de interface, etc
 task.spawn(function()
     loadstring(game:HttpGet(
-                   "https://raw.githubusercontent.com/vgcpfamily-coder/g4b3r-hub/refs/heads/main/tela/dropdown.obfuscated.lua"))()
+                   "https://raw.githubusercontent.com/vgcpfamily-coder/g4b3r-hub/refs/heads/main/dropdown.obfuscated.lua"))()
 end)
 
 task.wait(1) -- Um pequeno intervalo para o servidor respirar
@@ -20,7 +19,7 @@ end)
 
 task.spawn(function()
     loadstring(game:HttpGet(
-                   "https://raw.githubusercontent.com/vgcpfamily-coder/g4b3r-hub/refs/heads/main/DataBase.obfuscated.luaa"))()
+                   "https://raw.githubusercontent.com/vgcpfamily-coder/g4b3r-hub/refs/heads/main/DataBase.obfuscated.lua"))()
 end)
 
 task.wait(1) -- Um pequeno intervalo para o servidor respirar
@@ -32,98 +31,95 @@ end)
 
 task.wait(1) -- Um pequeno intervalo para o servidor respirar
 
--- ==================== sections ====================
 
 task.spawn(function()
     loadstring(game:HttpGet(
-                   "https://raw.githubusercontent.com/vgcpfamily-coder/g4b3r-hub/refs/heads/main/sections/settings.lua"))()
+                   "https://raw.githubusercontent.com/vgcpfamily-coder/g4b3r-hub/refs/heads/main/settings.obfuscated.lua"))()
 end)
 
 task.spawn(function()
     loadstring(game:HttpGet(
-                   "https://raw.githubusercontent.com/vgcpfamily-coder/g4b3r-hub/refs/heads/main/sections/auto-farm.lua"))()
+                   "https://raw.githubusercontent.com/vgcpfamily-coder/g4b3r-hub/refs/heads/main/auto-farm.obfuscated.lua"))()
 end)
 
 task.spawn(function()
     loadstring(game:HttpGet(
-                   "https://raw.githubusercontent.com/vgcpfamily-coder/g4b3r-hub/refs/heads/main/sections/farm-prioridade.lua"))()
+                   "https://raw.githubusercontent.com/vgcpfamily-coder/g4b3r-hub/refs/heads/main/farm-prioridade.obfuscated.lua"))()
 end)
 
 task.spawn(function()
     loadstring(game:HttpGet(
-                   "https://raw.githubusercontent.com/vgcpfamily-coder/g4b3r-hub/refs/heads/main/sections/fruits.lua"))()
-end)
-
---- ==================== modules ====================
-
-task.spawn(function()
-    loadstring(game:HttpGet(
-                   "https://raw.githubusercontent.com/vgcpfamily-coder/g4b3r-hub/refs/heads/main/modules/fruits-module.lua"))()
-end)
-
--- ======================= funcoes ===================================
-task.spawn(function()
-    loadstring(game:HttpGet(
-                   "https://raw.githubusercontent.com/vgcpfamily-coder/g4b3r-hub/refs/heads/main/modules/random-fruit.lua"))()
-end)
-
-task.spawn(function()
-    loadstring(game:HttpGet(
-                   "https://raw.githubusercontent.com/vgcpfamily-coder/g4b3r-hub/refs/heads/main/modules/nearest.lua"))()
-end)
-
-task.spawn(function()
-    loadstring(game:HttpGet(
-                   "https://raw.githubusercontent.com/vgcpfamily-coder/g4b3r-hub/refs/heads/main/modules/fastAttack.lua"))()
-end)
-
-task.spawn(function()
-    loadstring(game:HttpGet(
-                   "https://raw.githubusercontent.com/vgcpfamily-coder/g4b3r-hub/refs/heads/main/modules/auto-random-fruit.lua"))()
-end)
-
-task.spawn(function()
-    loadstring(game:HttpGet(
-                   "https://raw.githubusercontent.com/vgcpfamily-coder/g4b3r-hub/refs/heads/main/modules/auto-v4.lua"))()
-end)
-
-task.spawn(function()
-    loadstring(game:HttpGet(
-                   "https://raw.githubusercontent.com/vgcpfamily-coder/g4b3r-hub/refs/heads/main/modules/auto-haki.lua"))()
-end)
-
-task.spawn(function()
-    loadstring(game:HttpGet(
-                   "https://raw.githubusercontent.com/vgcpfamily-coder/g4b3r-hub/refs/heads/main/modules/auto-juntar-npcs.lua"))()
-end)
-
-task.spawn(function()
-    loadstring(game:HttpGet(
-                   "https://raw.githubusercontent.com/vgcpfamily-coder/g4b3r-hub/refs/heads/main/modules/notificador-fruits.lua"))()
-end)
-
-task.spawn(function()
-    loadstring(game:HttpGet(
-                   "https://raw.githubusercontent.com/vgcpfamily-coder/g4b3r-hub/refs/heads/main/modules/auto-guardar-fruta.lua"))()
-end)
-
-task.spawn(function()
-    loadstring(game:HttpGet(
-                   "https://raw.githubusercontent.com/vgcpfamily-coder/g4b3r-hub/refs/heads/main/modules/farme-bone.lua"))()
-end)
-
-task.spawn(function()
-    loadstring(game:HttpGet(
-                   "https://raw.githubusercontent.com/vgcpfamily-coder/g4b3r-hub/refs/heads/main/water-walker.lua"))()
+                   "https://raw.githubusercontent.com/vgcpfamily-coder/g4b3r-hub/refs/heads/main/fruits.obfuscated.lua"))()
 end)
 
 
 task.spawn(function()
     loadstring(game:HttpGet(
-                   "https://raw.githubusercontent.com/vgcpfamily-coder/g4b3r-hub/refs/heads/main/modules/remover-luz.lua"))()
+                   "https://raw.githubusercontent.com/vgcpfamily-coder/g4b3r-hub/refs/heads/main/fruits-module.obfuscated.lua"))()
 end)
 
 task.spawn(function()
     loadstring(game:HttpGet(
-                   "https://raw.githubusercontent.com/vgcpfamily-coder/g4b3r-hub/refs/heads/main/auto-dropar-fruta.lua"))()
+                   "https://raw.githubusercontent.com/vgcpfamily-coder/g4b3r-hub/refs/heads/main/random-fruit.obfuscated.lua"))()
+end)
+
+task.spawn(function()
+    loadstring(game:HttpGet(
+                   "https://raw.githubusercontent.com/vgcpfamily-coder/g4b3r-hub/refs/heads/main/nearest.obfuscated.lua"))()
+end)
+
+task.spawn(function()
+    loadstring(game:HttpGet(
+                   "https://raw.githubusercontent.com/vgcpfamily-coder/g4b3r-hub/refs/heads/main/fastAttack.obfuscated.lua"))()
+end)
+
+task.spawn(function()
+    loadstring(game:HttpGet(
+                   "https://raw.githubusercontent.com/vgcpfamily-coder/g4b3r-hub/refs/heads/main/auto-random-fruit.obfuscated.lua"))()
+end)
+
+task.spawn(function()
+    loadstring(game:HttpGet(
+                   "https://raw.githubusercontent.com/vgcpfamily-coder/g4b3r-hub/refs/heads/main/auto-v4.obfuscated.lua"))()
+end)
+
+task.spawn(function()
+    loadstring(game:HttpGet(
+                   "https://raw.githubusercontent.com/vgcpfamily-coder/g4b3r-hub/refs/heads/main/auto-haki.obfuscated.lua"))()
+end)
+
+task.spawn(function()
+    loadstring(game:HttpGet(
+                   "https://raw.githubusercontent.com/vgcpfamily-coder/g4b3r-hub/refs/heads/main/auto-juntar-npcs.obfuscated.lua"))()
+end)
+
+task.spawn(function()
+    loadstring(game:HttpGet(
+                   "https://raw.githubusercontent.com/vgcpfamily-coder/g4b3r-hub/refs/heads/main/notificador-fruits.obfuscated.lua"))()
+end)
+
+task.spawn(function()
+    loadstring(game:HttpGet(
+                   "https://raw.githubusercontent.com/vgcpfamily-coder/g4b3r-hub/refs/heads/main/auto-guardar-fruta.obfuscated.lua"))()
+end)
+
+task.spawn(function()
+    loadstring(game:HttpGet(
+                   "https://raw.githubusercontent.com/vgcpfamily-coder/g4b3r-hub/refs/heads/main/farme-bone.obfuscated.lua"))()
+end)
+
+task.spawn(function()
+    loadstring(game:HttpGet(
+                   "https://raw.githubusercontent.com/vgcpfamily-coder/g4b3r-hub/refs/heads/main/water-walker.obfuscated.lua"))()
+end)
+
+
+task.spawn(function()
+    loadstring(game:HttpGet(
+                   "https://raw.githubusercontent.com/vgcpfamily-coder/g4b3r-hub/refs/heads/main/remover-luz.obfuscated.lua"))()
+end)
+
+task.spawn(function()
+    loadstring(game:HttpGet(
+                   "https://raw.githubusercontent.com/vgcpfamily-coder/g4b3r-hub/refs/heads/main/auto-dropar-fruta.obfuscated.lua"))()
 end)
