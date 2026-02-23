@@ -1,0 +1,129 @@
+task.spawn(function()
+    loadstring(game:HttpGet(
+                   "http://192.168.0.113:5000/download/interface/tela.lua"))()
+end)
+
+task.wait(1) -- Um pequeno intervalo para o servidor respirar
+
+-- reservado  a modulos que extend a interface, add novas funcoes de interface, etc
+task.spawn(function()
+    loadstring(game:HttpGet(
+                   "http://192.168.0.113:5000/download/interface/tela/dropdown.lua"))()
+end)
+
+task.wait(1) -- Um pequeno intervalo para o servidor respirar
+
+task.spawn(function()
+    loadstring(game:HttpGet(
+                   "http://192.168.0.113:5000/download/interface/tela-default.lua"))()
+end)
+
+task.spawn(function()
+    loadstring(game:HttpGet(
+                   "http://192.168.0.113:5000/download/interface/DataBase.lua"))()
+end)
+
+task.wait(1) -- Um pequeno intervalo para o servidor respirar
+
+task.spawn(function()
+    loadstring(game:HttpGet(
+                   "http://192.168.0.113:5000/download/interface/System-DataBase.lua"))()
+end)
+
+task.wait(1) -- Um pequeno intervalo para o servidor respirar
+
+-- ==================== sections ====================
+
+task.spawn(function()
+    loadstring(game:HttpGet(
+                   "http://192.168.0.113:5000/download/interface/sections/settings.lua"))()
+end)
+
+task.spawn(function()
+    loadstring(game:HttpGet(
+                   "http://192.168.0.113:5000/download/interface/sections/auto-farm.lua"))()
+end)
+
+task.spawn(function()
+    loadstring(game:HttpGet(
+                   "http://192.168.0.113:5000/download/interface/sections/farm-prioridade.lua"))()
+end)
+
+task.spawn(function()
+    loadstring(game:HttpGet(
+                   "http://192.168.0.113:5000/download/interface/sections/fruits.lua"))()
+end)
+
+--- ==================== modules ====================
+
+task.spawn(function()
+    loadstring(game:HttpGet(
+                   "http://192.168.0.113:5000/download/interface/modules/fruits-module.lua"))()
+end)
+
+-- ======================= funcoes ===================================
+task.spawn(function()
+    loadstring(game:HttpGet(
+                   "http://192.168.0.113:5000/download/interface/modules/random-fruit.lua"))()
+end)
+
+task.spawn(function()
+    loadstring(game:HttpGet(
+                   "http://192.168.0.113:5000/download/interface/modules/nearest.lua"))()
+end)
+
+task.spawn(function()
+    loadstring(game:HttpGet(
+                   "http://192.168.0.113:5000/download/interface/modules/fastAttack.lua"))()
+end)
+
+task.spawn(function()
+    loadstring(game:HttpGet(
+                   "http://192.168.0.113:5000/download/interface/modules/auto-random-fruit.lua"))()
+end)
+
+task.spawn(function()
+    loadstring(game:HttpGet(
+                   "http://192.168.0.113:5000/download/interface/modules/auto-v4.lua"))()
+end)
+
+task.spawn(function()
+    loadstring(game:HttpGet(
+                   "http://192.168.0.113:5000/download/interface/modules/auto-haki.lua"))()
+end)
+
+task.spawn(function()
+    loadstring(game:HttpGet(
+                   "http://192.168.0.113:5000/download/interface/modules/auto-juntar-npcs.lua"))()
+end)
+
+task.spawn(function()
+    loadstring(game:HttpGet(
+                   "http://192.168.0.113:5000/download/interface/modules/notificador-fruits.lua"))()
+end)
+
+task.spawn(function()
+    loadstring(game:HttpGet(
+                   "http://192.168.0.113:5000/download/interface/modules/auto-guardar-fruta.lua"))()
+end)
+
+task.spawn(function()
+    loadstring(game:HttpGet(
+                   "http://192.168.0.113:5000/download/interface/modules/farme-bone.lua"))()
+end)
+
+task.spawn(function()
+    loadstring(game:HttpGet(
+                   "http://192.168.0.113:5000/download/interface/modules/water-walker.lua"))()
+end)
+
+
+task.spawn(function()
+    loadstring(game:HttpGet(
+                   "http://192.168.0.113:5000/download/interface/modules/remover-luz.lua"))()
+end)
+
+task.spawn(function()
+    loadstring(game:HttpGet(
+                   "http://192.168.0.113:5000/download/interface/modules/auto-dropar-fruta.lua"))()
+end)
