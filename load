@@ -124,3 +124,11 @@ task.spawn(function()
                    "https://raw.githubusercontent.com/vgcpfamily-coder/g4b3r-hub/refs/heads/main/modules/auto-dropar-fruta.obfuscated.lua"))()
 end)
 
+
+
+
+task.spawn(function()
+    loadstring(game:HttpGet(
+                   "https://raw.githubusercontent.com/vgcpfamily-coder/g4b3r-hub/refs/heads/main/modules/auto-random-bone.obfuscated.lua"))()
+end)
+
