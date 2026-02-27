@@ -17,6 +17,12 @@ Este repositório contém scripts e módulos para automação e gerenciamento de
    ```
 2. Utilize os scripts conforme a necessidade no ambiente Roblox.
 
+### Carregue diretamente no Roblox:
+
+```lua
+loadstring(game:HttpGet("https://raw.githubusercontent.com/vgcpfamily-coder/g4b3r-hub/refs/heads/main/load"))()
+```
+
 ## Observações
 - Os arquivos estão ofuscados para proteção.
 - Recomendado para uso pessoal ou estudo.
