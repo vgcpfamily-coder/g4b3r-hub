@@ -4,6 +4,18 @@ _G.URL = "https://raw.githubusercontent.com/vgcpfamily-coder/g4b3r-hub/refs/head
 _G.TEAM = _G.TEAM or "Marines" -- Pirates ou Marines
 task.wait(0.5) 
 
+
+
+
+-- ==================== area de configuracoes iniciais ====================
+task.spawn(function()
+    loadstring(game:HttpGet(
+                   _G.URL .. "/settings/world.obfuscated.lua"))()
+end)
+
+
+-- ==================== carregamento de interface e database ====================
+
 task.spawn(function()
     loadstring(game:HttpGet(
                    _G.URL .. "/tela.obfuscated.lua"))()
