@@ -2,7 +2,7 @@ _G.URL = "https://raw.githubusercontent.com/vgcpfamily-coder/g4b3r-hub/refs/head
 
 
 _G.TEAM = _G.TEAM or "Marines" -- Pirates ou Marines
-
+task.wait(0.5) 
 
 task.spawn(function()
     loadstring(game:HttpGet(
